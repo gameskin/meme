@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .world {
+            display: none;
+        }
+
+        .salah {
+            position: fixed;
+            width: 220px;
+
+        }
+
+        .el-lemby {
+            position: fixed;
+            right: 0;
+            width: 260px;
+        }
+
+        .salah-postion {
+            position: fixed;
+            top: 150px;
+            left: 50px;
+        }
+
+        .ellempy-postion {
+            position: fixed;
+            right: 50px;
+            top: 150px;
+        }
+
+        @media (max-width: 400px) {
+            .pc {
+                display: none;
+            }
+
+            .world {
+                display: block;
+            }
+
+            body {
+                background-color: greenyellow;
+                text-align: center;
+            }
+
+        }
+
+        @media (max-width: 300px) {
+            .imge {
+                width: 240px;
+            }
+            body{
+                background-color: aqua;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img class="world image" src="./World is so small.png" alt="">
+    <img class="salah pc" src="./Salah.png" alt="">
+    <img class="el-lemby pc" src="./El lemby.png" alt="">
+    <h1 class="salah-postion pc">أستاذ لمبي</h1>
+    <h1 class="ellempy-postion pc">صلاح إبن الناظر؟</h1>
+    <h1 class="world text">الدنيا ضيقة أوي يا جدعان</h1>
+</body>
+
+</html>
